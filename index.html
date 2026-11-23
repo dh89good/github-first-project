@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="面向 GitHub 初学者的零依赖开源项目练习。"
+    />
+    <title>GitHub First Project</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <header class="hero">
+        <span class="eyebrow">FIRST OPEN-SOURCE PROJECT</span>
+        <h1>从第一个 Commit<br />开始使用 GitHub</h1>
+        <p>
+          跟着清单完成搜索、阅读、运行、修改和发布。完成后，你就不再只是“看过
+          GitHub”，而是真正发布过一个开源项目。
+        </p>
+        <div class="progress" aria-live="polite">
+          <span id="progress-text">0 / 6 已完成</span>
+          <div class="progress-track">
+            <div id="progress-bar" class="progress-bar"></div>
+          </div>
+        </div>
+      </header>
+
+      <section class="checklist" aria-label="GitHub 入门清单">
+        <label class="item">
+          <input type="checkbox" data-step="search" />
+          <span class="number">01</span>
+          <span>
+            <strong>搜索项目</strong>
+            <small>在 GitHub 搜索主题、语言和热度，先找能运行的项目。</small>
+          </span>
+        </label>
+        <label class="item">
+          <input type="checkbox" data-step="readme" />
+          <span class="number">02</span>
+          <span>
+            <strong>看懂 README</strong>
+            <small>确认项目用途、安装方式、运行命令和许可证。</small>
+          </span>
+        </label>
+        <label class="item">
+          <input type="checkbox" data-step="run" />
+          <span class="number">03</span>
+          <span>
+            <strong>本地运行</strong>
+            <small>安装依赖，执行启动命令，并在浏览器中检查结果。</small>
+          </span>
+        </label>
+        <label class="item">
+          <input type="checkbox" data-step="change" />
+          <span class="number">04</span>
+          <span>
+            <strong>完成一次修改</strong>
+            <small>先跑通再改代码，每次只改一个小功能并重新验证。</small>
+          </span>
+        </label>
+        <label class="item">
+          <input type="checkbox" data-step="commit" />
+          <span class="number">05</span>
+          <span>
+            <strong>创建 Commit</strong>
+            <small>用清晰的提交信息保存这次修改。</small>
+          </span>
+        </label>
+        <label class="item">
+          <input type="checkbox" data-step="publish" />
+          <span class="number">06</span>
+          <span>
+            <strong>发布到 GitHub</strong>
+            <small>推送仓库、补充 README，并选择开源许可证。</small>
+          </span>
+        </label>
+      </section>
+
+      <footer>
+        <span>Built while learning GitHub</span>
+        <span>MIT License</span>
+      </footer>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
