@@ -11,6 +11,9 @@
 5. 在本地部署运行
 6. 开源自己的第一个项目
 
+这次重做的完整执行记录见
+[VIDEO-REBUILD.md](VIDEO-REBUILD.md)。
+
 ## 1. 注册并登录
 
 打开 <https://github.com/signup> 注册账号，或打开
